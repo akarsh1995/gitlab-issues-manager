@@ -14,11 +14,11 @@ cp sample.env .env
     - If pipenv  is your package manager then run
         ```shell script
         pipenv install
-        pipenv run python gitlab_issues.py
+        pipenv run python gitlab_issues
         ```
     - If pip is your package manager run
         ```shell script
         pip install -r requirements.txt
-        python gitlab_issues.py
-        ``` 
-- Check the exported `project_issues.csv` file in the root dir.
+        python gitlab_issues
+        ```
+- Check the exported `project_issues.csv` file in the `data` dir.
