@@ -1,5 +1,5 @@
 import gitlab
-from lab_issues.utils import get_secret
+from gitlab_issues.utils import get_secret
 
 
 class GitlabAuthenticate:

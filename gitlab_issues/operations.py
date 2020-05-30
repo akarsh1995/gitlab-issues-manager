@@ -2,8 +2,8 @@ from typing import List
 
 from gitlab.v4.objects import Project, ProjectIssueManager
 
-from lab_issues.authentication import GitlabAuthenticate
-from lab_issues.custom_objects import CustomProjectIssue
+from gitlab_issues.authentication import GitlabAuthenticate
+from gitlab_issues.custom_objects import CustomProjectIssue
 
 
 class GitlabProjectIssues:
